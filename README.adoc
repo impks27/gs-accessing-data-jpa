@@ -5,3 +5,9 @@ docker build -t impks/accessing-data-jpa .
 docker run -p 8080:8080 impks/accessing-data-jpa
 
 http://localhost:8080/actuator/health
+
+https://kind.sigs.k8s.io/
+
+https://github.com/tektoncd/pipeline
+
+https://kind.sigs.k8s.io/docs/user/quick-start
