@@ -1,0 +1,7 @@
+#docker commands
+
+docker build -t impks/accessing-data-jpa .
+
+docker run -p 8080:8080 impks/accessing-data-jpa
+
+http://localhost:8080/actuator/health
